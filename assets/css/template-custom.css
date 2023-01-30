@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+
+body{
+    font-family: 'Ubuntu', sans-serif !important;
+    background-color: #EEE !important;
+}
+
+.navbar-custom-bg{
+    background-color: #0D6EFD !important;
+}
+
+.bg-custom-primary{
+    background-color: #0D6EFD !important;
+    color: #FFF !important;
+}
+
+.text-custom-justify {
+    text-align: justify;
+}
+
+.custom-background-image{
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(50,53,103,1) 35%, rgba(0,212,255,1) 100%);
+    width: 100%;
+    border-radius: 6px;
+}
+
+.custom-card{
+    width: 18rem;
+    padding: 1rem;
+    border-radius: 6px;
+    background-color: #FFF;
+    box-shadow: 0 2px 4px rgb(126 142 177 / 12%);
+}
+
+.custom-container{
+    padding: 1rem;
+    border-radius: 6px;
+    background-color: #FFF;
+    box-shadow: 0 2px 4px rgb(126 142 177 / 12%);
+}
+
+
+.custom-link-tag{
+    text-decoration: none;
+    color: #000;
+}
+
+.table-responsive::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.table-responsive::-webkit-scrollbar:vertical {
+    width: 12px;
+}
+
+.table-responsive::-webkit-scrollbar:horizontal {
+    height: 12px;
+}
+
+.table-responsive::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+}
+
+.table-responsive::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+
+footer{
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+
+.custom-font-small{
+    font-size: 0.625em;
+}
+

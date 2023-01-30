@@ -1,0 +1,805 @@
+{
+  "data" : [
+    {
+      "id": 300,
+      "code": "SKU00291",
+      "title": "Lifebuoy Strong And Long Shampoo Soft And Silky 375ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "109",
+      "sellingPrice": "156"
+    },
+    {
+      "id": 301,
+      "code": "SKU00292",
+      "title": "Life Buoy Hand Wash Cool Fresh 220Ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "151",
+      "sellingPrice": "190"
+    },
+    {
+      "id": 302,
+      "code": "SKU00293",
+      "title": "Supreme Black Tea Packet 20g 1x20",
+      "measurementUnit": "KG",
+      "buyingPrice": "197",
+      "sellingPrice": "116"
+    },
+    {
+      "id": 303,
+      "code": "SKU00294",
+      "title": "Lipton Green Tea Bag Lemon Sachet 25S",
+      "measurementUnit": "KG",
+      "buyingPrice": "188",
+      "sellingPrice": "193"
+    },
+    {
+      "id": 304,
+      "code": "SKU00295",
+      "title": "Lifebuoy Strong And Long Shampoo Herbal 9ml 1X16",
+      "measurementUnit": "KG",
+      "buyingPrice": "103",
+      "sellingPrice": "136"
+    },
+    {
+      "id": 305,
+      "code": "SKU00296",
+      "title": "Lux Soap Fresh Splash 145G 1x2",
+      "measurementUnit": "KG",
+      "buyingPrice": "171",
+      "sellingPrice": "149"
+    },
+    {
+      "id": 306,
+      "code": "SKU00297",
+      "title": "Fair and Lovely Insta glow Face Wash 50g",
+      "measurementUnit": "KG",
+      "buyingPrice": "130",
+      "sellingPrice": "103"
+    },
+    {
+      "id": 307,
+      "code": "SKU00298",
+      "title": "Lifebuoy Hand Wash Total 140ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "125",
+      "sellingPrice": "117"
+    },
+    {
+      "id": 308,
+      "code": "SKU00299",
+      "title": "Life Buoy Hand Wash Mild Care 140Ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "112",
+      "sellingPrice": "109"
+    },
+    {
+      "id": 309,
+      "code": "SKU00300",
+      "title": "Lux Velvet Velvet Touch Trio 145g",
+      "measurementUnit": "KG",
+      "buyingPrice": "110",
+      "sellingPrice": "123"
+    },
+    {
+      "id": 310,
+      "code": "SKU00301",
+      "title": "Supreme Black Tea Sachet 15g",
+      "measurementUnit": "KG",
+      "buyingPrice": "184",
+      "sellingPrice": "154"
+    },
+    {
+      "id": 311,
+      "code": "SKU00302",
+      "title": "Ponds Cleansing Face Wash Pimple Clear 100G",
+      "measurementUnit": "KG",
+      "buyingPrice": "119",
+      "sellingPrice": "134"
+    },
+    {
+      "id": 312,
+      "code": "SKU00303",
+      "title": "Ponds Spotless Fairness Cream White Beauty 25g",
+      "measurementUnit": "KG",
+      "buyingPrice": "111",
+      "sellingPrice": "156"
+    },
+    {
+      "id": 313,
+      "code": "SKU00304",
+      "title": "Lifebuoy Hand Wash Mild Care 220Ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "147",
+      "sellingPrice": "167"
+    },
+    {
+      "id": 314,
+      "code": "SKU00305",
+      "title": "Lifebuoy Germ Protection Hand Wash Total 220ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "196",
+      "sellingPrice": "178"
+    },
+    {
+      "id": 315,
+      "code": "SKU00306",
+      "title": "Ponds AntiPollution Face Wash Pure White 50g",
+      "measurementUnit": "KG",
+      "buyingPrice": "102",
+      "sellingPrice": "179"
+    },
+    {
+      "id": 316,
+      "code": "SKU00307",
+      "title": "Lifebuoy Strong And Long Shampoo Herbal 650ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "188",
+      "sellingPrice": "104"
+    },
+    {
+      "id": 317,
+      "code": "SKU00308",
+      "title": "Lux Fragranced Body Wash Magic Spell 220Ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "158",
+      "sellingPrice": "176"
+    },
+    {
+      "id": 318,
+      "code": "SKU00309",
+      "title": "Surf Excel Washing Powder 3kg",
+      "measurementUnit": "KG",
+      "buyingPrice": "109",
+      "sellingPrice": "114"
+    },
+    {
+      "id": 319,
+      "code": "SKU00310",
+      "title": "Ponds SpotLess Fairness Day Cream White Beauty 50g",
+      "measurementUnit": "KG",
+      "buyingPrice": "147",
+      "sellingPrice": "193"
+    },
+    {
+      "id": 320,
+      "code": "SKU00311",
+      "title": "Domex  Blue 500ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "123",
+      "sellingPrice": "137"
+    },
+    {
+      "id": 321,
+      "code": "SKU00312",
+      "title": "Domex Toilet Cleaner Pink 500Ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "118",
+      "sellingPrice": "177"
+    },
+    {
+      "id": 322,
+      "code": "SKU00313",
+      "title": "Domex Toilet Cleaner Green 500ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "132",
+      "sellingPrice": "128"
+    },
+    {
+      "id": 323,
+      "code": "SKU00314",
+      "title": "Vim Active Gel Dish Wash Lemon 250ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "147",
+      "sellingPrice": "151"
+    },
+    {
+      "id": 324,
+      "code": "SKU00315",
+      "title": "Vim Active Gel Dish Wash Lemon 500ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "112",
+      "sellingPrice": "110"
+    },
+    {
+      "id": 325,
+      "code": "SKU00316",
+      "title": "Comfort Fabric Conditioner Morning Fresh 400ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "114",
+      "sellingPrice": "139"
+    },
+    {
+      "id": 326,
+      "code": "SKU00317",
+      "title": "Comfort Fabric Conditioner Morning Fresh 200ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "153",
+      "sellingPrice": "149"
+    },
+    {
+      "id": 327,
+      "code": "SKU00318",
+      "title": "Comfort Fabric Conditioner Lily Fresh 200Ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "189",
+      "sellingPrice": "197"
+    },
+    {
+      "id": 328,
+      "code": "SKU00319",
+      "title": "Comfort Fabric Conditioner Lily Fresh 400Ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "117",
+      "sellingPrice": "196"
+    },
+    {
+      "id": 329,
+      "code": "SKU00320",
+      "title": "Sunsilk Stunning Shampoo Blackshine 18ml 1X16",
+      "measurementUnit": "KG",
+      "buyingPrice": "130",
+      "sellingPrice": "161"
+    },
+    {
+      "id": 330,
+      "code": "SKU00321",
+      "title": "Knorr RedPepper Ketchup Chilli Garlic Sauce 800G",
+      "measurementUnit": "KG",
+      "buyingPrice": "115",
+      "sellingPrice": "194"
+    },
+    {
+      "id": 331,
+      "code": "SKU00322",
+      "title": "Knorr Bouillon Cube Chicken 18G",
+      "measurementUnit": "KG",
+      "buyingPrice": "123",
+      "sellingPrice": "137"
+    },
+    {
+      "id": 332,
+      "code": "SKU00323",
+      "title": "glaxoseD Calcium Energy Drink 400g",
+      "measurementUnit": "KG",
+      "buyingPrice": "115",
+      "sellingPrice": "164"
+    },
+    {
+      "id": 333,
+      "code": "SKU00324",
+      "title": "Knorr Tomato Ketchup 800g",
+      "measurementUnit": "KG",
+      "buyingPrice": "175",
+      "sellingPrice": "183"
+    },
+    {
+      "id": 334,
+      "code": "SKU00325",
+      "title": "Rafhan Thickening Cornflour 285G",
+      "measurementUnit": "KG",
+      "buyingPrice": "191",
+      "sellingPrice": "106"
+    },
+    {
+      "id": 335,
+      "code": "SKU00326",
+      "title": "Rafhan Pure Corn Oil Tin 3L",
+      "measurementUnit": "KG",
+      "buyingPrice": "157",
+      "sellingPrice": "169"
+    },
+    {
+      "id": 336,
+      "code": "SKU00327",
+      "title": "Rafhan Pure Corn Oil Tin 5L",
+      "measurementUnit": "KG",
+      "buyingPrice": "176",
+      "sellingPrice": "172"
+    },
+    {
+      "id": 337,
+      "code": "SKU00328",
+      "title": "Rafhan Artificial Custard Vanilla Flavor 285G",
+      "measurementUnit": "KG",
+      "buyingPrice": "134",
+      "sellingPrice": "154"
+    },
+    {
+      "id": 338,
+      "code": "SKU00329",
+      "title": "Knorr Instant Noodles Chatpatta 66g",
+      "measurementUnit": "KG",
+      "buyingPrice": "169",
+      "sellingPrice": "183"
+    },
+    {
+      "id": 339,
+      "code": "SKU00330",
+      "title": "Knorr Instant Noodles Chicken 66g",
+      "measurementUnit": "KG",
+      "buyingPrice": "110",
+      "sellingPrice": "100"
+    },
+    {
+      "id": 340,
+      "code": "SKU00331",
+      "title": "Knorr Instant Noodles Chattpata 36g",
+      "measurementUnit": "KG",
+      "buyingPrice": "169",
+      "sellingPrice": "147"
+    },
+    {
+      "id": 341,
+      "code": "SKU00332",
+      "title": "Knorr Instant Noodles Chicken 36g",
+      "measurementUnit": "KG",
+      "buyingPrice": "130",
+      "sellingPrice": "109"
+    },
+    {
+      "id": 342,
+      "code": "SKU00333",
+      "title": "Sunlight Clean And Fragrance Fresh Washing Powder Pink 1Kg",
+      "measurementUnit": "KG",
+      "buyingPrice": "157",
+      "sellingPrice": "155"
+    },
+    {
+      "id": 343,
+      "code": "SKU00334",
+      "title": "Sunlight Clean and Fresh Washing Powder green 1Kg",
+      "measurementUnit": "KG",
+      "buyingPrice": "107",
+      "sellingPrice": "169"
+    },
+    {
+      "id": 344,
+      "code": "SKU00335",
+      "title": "Lifebuoy Strong And Long Shampoo Herbal 375ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "124",
+      "sellingPrice": "113"
+    },
+    {
+      "id": 345,
+      "code": "SKU00336",
+      "title": "Sunsilk Shampoo Blackshine 80ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "195",
+      "sellingPrice": "136"
+    },
+    {
+      "id": 346,
+      "code": "SKU00337",
+      "title": "Sunsilk Stunning Shampoo Blackshine 400ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "196",
+      "sellingPrice": "172"
+    },
+    {
+      "id": 347,
+      "code": "SKU00338",
+      "title": "Sunsilk Strong Shampoo Hairfall 400ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "175",
+      "sellingPrice": "157"
+    },
+    {
+      "id": 348,
+      "code": "SKU00339",
+      "title": "Surf Excel Washing Powder 1kg",
+      "measurementUnit": "KG",
+      "buyingPrice": "159",
+      "sellingPrice": "128"
+    },
+    {
+      "id": 349,
+      "code": "SKU00340",
+      "title": "Lifebuoy Soap Care 112g",
+      "measurementUnit": "KG",
+      "buyingPrice": "162",
+      "sellingPrice": "129"
+    },
+    {
+      "id": 350,
+      "code": "SKU00341",
+      "title": "Lux Soft Touch Soap Strawberry and Cream 145G 1x2",
+      "measurementUnit": "KG",
+      "buyingPrice": "156",
+      "sellingPrice": "197"
+    },
+    {
+      "id": 351,
+      "code": "SKU00342",
+      "title": "Lux Soft Touch Soap Strawberry and Cream 110g 1x4",
+      "measurementUnit": "KG",
+      "buyingPrice": "114",
+      "sellingPrice": "182"
+    },
+    {
+      "id": 352,
+      "code": "SKU00343",
+      "title": "Ponds Triple Vitamin Body Lotion 100ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "167",
+      "sellingPrice": "190"
+    },
+    {
+      "id": 353,
+      "code": "SKU00344",
+      "title": "Lux Whitening Body Wash White Impress 220ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "150",
+      "sellingPrice": "181"
+    },
+    {
+      "id": 354,
+      "code": "SKU00345",
+      "title": "Lux Soft Touch Body Wash Strawberry and Cream 220ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "156",
+      "sellingPrice": "135"
+    },
+    {
+      "id": 355,
+      "code": "SKU00346",
+      "title": "Lifebuoy germ Protection Soap Total 112g",
+      "measurementUnit": "KG",
+      "buyingPrice": "107",
+      "sellingPrice": "132"
+    },
+    {
+      "id": 356,
+      "code": "SKU00347",
+      "title": "Lux Velvet Touch 145g",
+      "measurementUnit": "KG",
+      "buyingPrice": "139",
+      "sellingPrice": "198"
+    },
+    {
+      "id": 357,
+      "code": "SKU00348",
+      "title": "Lux Soap Purple Lotus 145g",
+      "measurementUnit": "KG",
+      "buyingPrice": "173",
+      "sellingPrice": "174"
+    },
+    {
+      "id": 358,
+      "code": "SKU00349",
+      "title": "Lipton Yellow Label Tea Packet 380g",
+      "measurementUnit": "KG",
+      "buyingPrice": "150",
+      "sellingPrice": "130"
+    },
+    {
+      "id": 359,
+      "code": "SKU00350",
+      "title": "Lipton Yellow Label Tea Jar 475g",
+      "measurementUnit": "KG",
+      "buyingPrice": "199",
+      "sellingPrice": "108"
+    },
+    {
+      "id": 360,
+      "code": "SKU00351",
+      "title": "Lipton Yellow Label Tea Packet 475g",
+      "measurementUnit": "KG",
+      "buyingPrice": "142",
+      "sellingPrice": "185"
+    },
+    {
+      "id": 361,
+      "code": "SKU00352",
+      "title": "Lipton Yellow Label Tea Bag Satchet 50s",
+      "measurementUnit": "KG",
+      "buyingPrice": "100",
+      "sellingPrice": "146"
+    },
+    {
+      "id": 362,
+      "code": "SKU00353",
+      "title": "Lipton Yellow Label Tea Bag Satchet 100s",
+      "measurementUnit": "KG",
+      "buyingPrice": "129",
+      "sellingPrice": "107"
+    },
+    {
+      "id": 363,
+      "code": "SKU00354",
+      "title": "Ponds AntiPollution Face Wash Pure White 100g",
+      "measurementUnit": "KG",
+      "buyingPrice": "147",
+      "sellingPrice": "118"
+    },
+    {
+      "id": 364,
+      "code": "SKU00355",
+      "title": "Ponds Triple Vitamin Body Lotion 200ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "149",
+      "sellingPrice": "190"
+    },
+    {
+      "id": 365,
+      "code": "SKU00356",
+      "title": "Lifebuoy germ Protection Soap Total 146g",
+      "measurementUnit": "KG",
+      "buyingPrice": "105",
+      "sellingPrice": "154"
+    },
+    {
+      "id": 366,
+      "code": "SKU00357",
+      "title": "Lifebuoy SoapCare 146g",
+      "measurementUnit": "KG",
+      "buyingPrice": "157",
+      "sellingPrice": "121"
+    },
+    {
+      "id": 367,
+      "code": "SKU00358",
+      "title": "Surf Excel Washing Powder 500g",
+      "measurementUnit": "KG",
+      "buyingPrice": "136",
+      "sellingPrice": "118"
+    },
+    {
+      "id": 368,
+      "code": "SKU00359",
+      "title": "Surf Excel Washing Powder 2Kg",
+      "measurementUnit": "KG",
+      "buyingPrice": "182",
+      "sellingPrice": "158"
+    },
+    {
+      "id": 369,
+      "code": "SKU00360",
+      "title": "Sunsilk Shampoo Black shine 185 ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "145",
+      "sellingPrice": "151"
+    },
+    {
+      "id": 370,
+      "code": "SKU00361",
+      "title": "Sunsilk Strong Shampoo Hairfall 185ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "119",
+      "sellingPrice": "144"
+    },
+    {
+      "id": 371,
+      "code": "SKU00362",
+      "title": "Lifebuoy Strong And Long Shampoo Naturally Long 200Ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "163",
+      "sellingPrice": "183"
+    },
+    {
+      "id": 372,
+      "code": "SKU00363",
+      "title": "Fair And Lovely Multi Vitamin Cream 14ml 1X12",
+      "measurementUnit": "KG",
+      "buyingPrice": "126",
+      "sellingPrice": "183"
+    },
+    {
+      "id": 373,
+      "code": "SKU00364",
+      "title": "Lifebuoy Strong And Long Shampoo Herbal 90Ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "135",
+      "sellingPrice": "127"
+    },
+    {
+      "id": 374,
+      "code": "SKU00365",
+      "title": "Lifebuoy Strong And Long Shampoo Herbal 175Ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "131",
+      "sellingPrice": "173"
+    },
+    {
+      "id": 375,
+      "code": "SKU00366",
+      "title": "Surf Excel Washing Powder 35g 1X6",
+      "measurementUnit": "KG",
+      "buyingPrice": "173",
+      "sellingPrice": "149"
+    },
+    {
+      "id": 376,
+      "code": "SKU00367",
+      "title": "Surf Excel Washing Powder 65g 1X6",
+      "measurementUnit": "KG",
+      "buyingPrice": "123",
+      "sellingPrice": "171"
+    },
+    {
+      "id": 377,
+      "code": "SKU00368",
+      "title": "Surf Excel Washing Powder 1x6 170g",
+      "measurementUnit": "KG",
+      "buyingPrice": "184",
+      "sellingPrice": "107"
+    },
+    {
+      "id": 378,
+      "code": "SKU00369",
+      "title": "Lux Velvet Touch Soap 110g 1x2",
+      "measurementUnit": "KG",
+      "buyingPrice": "186",
+      "sellingPrice": "110"
+    },
+    {
+      "id": 379,
+      "code": "SKU00370",
+      "title": "Lipton Yellow Label Tea Packet 24g 1x20",
+      "measurementUnit": "KG",
+      "buyingPrice": "191",
+      "sellingPrice": "124"
+    },
+    {
+      "id": 380,
+      "code": "SKU00371",
+      "title": "Supreme Black Tea Packet 475G",
+      "measurementUnit": "KG",
+      "buyingPrice": "148",
+      "sellingPrice": "168"
+    },
+    {
+      "id": 381,
+      "code": "SKU00372",
+      "title": "Supreme Black Tea Packet 190G",
+      "measurementUnit": "KG",
+      "buyingPrice": "198",
+      "sellingPrice": "188"
+    },
+    {
+      "id": 382,
+      "code": "SKU00373",
+      "title": "Supreme Black Tea Packet 950G",
+      "measurementUnit": "KG",
+      "buyingPrice": "144",
+      "sellingPrice": "156"
+    },
+    {
+      "id": 383,
+      "code": "SKU00374",
+      "title": "Lipton Yellow Label Tea Packet 190g",
+      "measurementUnit": "KG",
+      "buyingPrice": "148",
+      "sellingPrice": "173"
+    },
+    {
+      "id": 384,
+      "code": "SKU00375",
+      "title": "Lipton Yellow Label Tea Packet 950g",
+      "measurementUnit": "KG",
+      "buyingPrice": "120",
+      "sellingPrice": "183"
+    },
+    {
+      "id": 385,
+      "code": "SKU00376",
+      "title": "Supreme Black Tea Jar 450g",
+      "measurementUnit": "KG",
+      "buyingPrice": "155",
+      "sellingPrice": "126"
+    },
+    {
+      "id": 386,
+      "code": "SKU00377",
+      "title": "Fair And Lovely Bb Cream 40G",
+      "measurementUnit": "KG",
+      "buyingPrice": "166",
+      "sellingPrice": "153"
+    },
+    {
+      "id": 387,
+      "code": "SKU00378",
+      "title": "Fair And Lovely Bb Cream 48X18G",
+      "measurementUnit": "KG",
+      "buyingPrice": "169",
+      "sellingPrice": "186"
+    },
+    {
+      "id": 388,
+      "code": "SKU00379",
+      "title": "Vim Active Gel Dish Wash Lemon Pouch 750ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "122",
+      "sellingPrice": "152"
+    },
+    {
+      "id": 389,
+      "code": "SKU00380",
+      "title": "Sunsilk growth Shampoo Long and Healthy 200ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "197",
+      "sellingPrice": "128"
+    },
+    {
+      "id": 390,
+      "code": "SKU00381",
+      "title": "Sunsilk Growth Shampoo Long and Healthy 400ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "150",
+      "sellingPrice": "168"
+    },
+    {
+      "id": 391,
+      "code": "SKU00382",
+      "title": "Knorr  Noodles Chicken 264g",
+      "measurementUnit": "KG",
+      "buyingPrice": "190",
+      "sellingPrice": "146"
+    },
+    {
+      "id": 392,
+      "code": "SKU00383",
+      "title": "Knorr Instant Noodles Chatpatta 264g",
+      "measurementUnit": "KG",
+      "buyingPrice": "162",
+      "sellingPrice": "173"
+    },
+    {
+      "id": 393,
+      "code": "SKU00384",
+      "title": "Domex  Blue 200ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "178",
+      "sellingPrice": "172"
+    },
+    {
+      "id": 394,
+      "code": "SKU00385",
+      "title": "Lifebuoy Strong And Long Shampoo Naturally Long 375ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "125",
+      "sellingPrice": "112"
+    },
+    {
+      "id": 395,
+      "code": "SKU00386",
+      "title": "Lifebuoy Strong And Long Shampoo Naturally Long 175Ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "183",
+      "sellingPrice": "179"
+    },
+    {
+      "id": 396,
+      "code": "SKU00387",
+      "title": "Sunlight Clean And Rose Fresh Washing Powder Rose 850g",
+      "measurementUnit": "KG",
+      "buyingPrice": "148",
+      "sellingPrice": "104"
+    },
+    {
+      "id": 397,
+      "code": "SKU00388",
+      "title": "Sunlight Clean And Fragrance Fresh Washing Powder Pink 850g",
+      "measurementUnit": "KG",
+      "buyingPrice": "175",
+      "sellingPrice": "164"
+    },
+    {
+      "id": 398,
+      "code": "SKU00389",
+      "title": "Sunligh Clean and Fresh Washing Powder green 850g",
+      "measurementUnit": "KG",
+      "buyingPrice": "196",
+      "sellingPrice": "190"
+    },
+    {
+      "id": 399,
+      "code": "SKU00390",
+      "title": "Fair And Lovely Multi Vitamin Cream 70ml",
+      "measurementUnit": "KG",
+      "buyingPrice": "161",
+      "sellingPrice": "137"
+    }
+  ]
+
+}
