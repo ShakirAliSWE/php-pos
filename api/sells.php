@@ -12,7 +12,7 @@ try{
 
     if($action == "all"){
         $data = [];
-        $result = $objDatabase->dbQuery("SELECT * FROM purchases ORDER BY id DESC ");
+        $result = $objDatabase->dbQuery("SELECT * FROM sells ORDER BY id DESC ");
         while($row = $objDatabase->dbFetch($result)){
             $data[] = [
                 "id"            => (int) $row["id"],
@@ -26,7 +26,7 @@ try{
         echo json_encode(["data" => $data]);
     }
     else if($action == "add"){
-        $code  = systemCode("purchases","code","id","PR");
+        $code  = systemCode("sells","code","id","S");
         $date  = getValue("date");
         $items = getValue("items");
 
@@ -44,8 +44,8 @@ try{
             $itemsArray[$item["id"]] += $item["qty"];
         }
 
-        $objDatabase->dbQuery("INSERT INTO purchases(code,date,addedAt,addedBy) VALUES ('$code','$date','$addedAt','$addedBy')");
-        $purchaseId  = $objDatabase->dbLastId();
+        $objDatabase->dbQuery("INSERT INTO sells(code,date,addedAt,addedBy) VALUES ('$code','$date','$addedAt','$addedBy')");
+        $sellId  = $objDatabase->dbLastId();
         $totalItems  = 0;
         $totalAmount = 0;
 
@@ -57,16 +57,16 @@ try{
                 continue;
             $buyingPrice   = $row["buyingPrice"];
             $sellingPrice  = $row["sellingPrice"];
-            $totalPrice    = $qty*$buyingPrice;
+            $totalPrice    = $qty*$sellingPrice;
 
             $totalItems++;
             $totalAmount += $totalPrice;
-            $objDatabase->dbQuery("INSERT INTO purchases_items(purchaseId,itemId,qty,buyingPrice,sellingPrice,totalPrice) VALUES ('$purchaseId','$itemId','$qty','$buyingPrice','$sellingPrice','$totalPrice')");
+            $objDatabase->dbQuery("INSERT INTO sells_items(sellId,itemId,qty,buyingPrice,sellingPrice,totalPrice) VALUES ('$sellId','$itemId','$qty','$buyingPrice','$sellingPrice','$totalPrice')");
         }
 
-        $objDatabase->dbQuery("UPDATE purchases SET totalItems = '$totalItems', totalAmount = '$totalAmount' WHERE id = '$purchaseId' ");
+        $objDatabase->dbQuery("UPDATE sells SET totalItems = '$totalItems', totalAmount = '$totalAmount' WHERE id = '$sellId' ");
 
-        echo response(200,"Record added successfully",["id" => $purchaseId]);
+        echo response(200,"Record added successfully",["id" => $sellId]);
     }
     else{
         throw new Exception("No action found",403);

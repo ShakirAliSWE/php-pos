@@ -106,3 +106,45 @@ function randomString(length = 12) {
 
     return result;
 }
+
+function login(){
+    let username = $("#username").val();
+    let password = $("#password").val();
+
+    if(username === ""){
+        formFieldError("username");
+        return false;
+    }
+
+    if(password === ""){
+        formFieldError("password");
+        return false;
+    }
+
+    let parameters = {
+        "action" : "login",
+        "username" : username,
+        "password" : password
+    };
+
+    requestAjax("../api/login.php",parameters,(response)=>{
+        const result = JSON.parse(response);
+        window.location = result.data.redirect;
+    });
+
+
+
+    return false;
+}
+
+function logout(){
+    let parameters = {
+        "action" : "logout",
+    };
+    requestAjax("../api/login.php",parameters,(response)=>{
+        const result = JSON.parse(response);
+        window.location = result.data.redirect;
+    });
+
+    console.error("Hello, Logout is clicked");
+}

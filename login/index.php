@@ -1,8 +1,8 @@
 <?php
-include_once __DIR__ . "/includes.php";
+include_once __DIR__ . "/../includes/includes.php";
 $globalErrorArray = getGlobalError(getValue("_e", "GET"));
-if(!verifyUser()){
-    redirect("../login/");
+if(verifyUser()){
+    redirect("../dashboard/");
 }
 ?>
 
@@ -41,10 +41,6 @@ if(!verifyUser()){
 
     <script src="../assets/js/jquery-mask.js"></script>
 
-    <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
-    <link href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap5.min.css" rel="stylesheet">
-    <script src="https://cdn.datatables.net/1.13.1/js/dataTables.bootstrap5.min.js"></script>
-
     <script>
         function bodyOnLoad() {
             let globalErrorArray = <?php echo json_encode($globalErrorArray)?>;
@@ -52,31 +48,58 @@ if(!verifyUser()){
         }
     </script>
 
+    <style>
+        .my-form
+        {
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+        }
+
+        .my-form .row
+        {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        .login-form
+        {
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+        }
+
+        .login-form .row
+        {
+            margin-left: 0;
+            margin-right: 0;
+        }</style>
+
 </head>
-<body onload="bodyOnLoad();">
-<div class="container-fluid">
-    <div class="mb-5"></div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-custom-primary mb-2 rounded">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="../"><?php echo COMPANY_NAME; ?></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <?php
-                    $aArrayLinks = menus();
-                    foreach ($aArrayLinks as $aArrayLink) {
-                        $sActive = $sActivePage == $aArrayLink["path"] ? "active" : "";
-                        echo '<li class="nav-item"><a class="nav-link ' . $sActive . '" href="../' . $aArrayLink["path"] . '">' . $aArrayLink["title"] . '</a></li>';
-                    }
-                    ?>
-                </ul>
-                <div class="d-flex justify-content-end w-100">
-                    <a href = "javascript:void(0);" onclick="logout();" class="btn btn-warning btn-sm">Logout</a>
+<body>
+<div class="container">
+    <div class="mt-5"></div>
+    <div class="d-flex flex-column" style="align-items: center;">
+        <div><h4>Please sign in</h4></div>
+        <div class="custom-container" style="width: 22em;">
+            <form onsubmit="return login();" autocomplete="off">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="username" placeholder="03xxxxxxxxx">
+                    <label for="username">Mobile Number - 03xxxxxxxxx</label>
                 </div>
-            </div>
+                <div class="form-floating mb-3">
+                    <input type="password" class="form-control" id="password" placeholder="Password">
+                    <label for="password">Password</label>
+                </div>
+                <div class="d-flex mb-3 gap-1">
+                    <button type = "button" class="btn btn-warning" style="width: 50%;">Forget Password</button>
+                    <button type = "submit" class="btn btn-primary" style="width: 50%;">Login</button>
+                </div>
+            </form>
         </div>
-    </nav>
-    <div class="main-container" id="main-container">
+    </div>
+</div>
+<div style="clear: both"><br/>
+<script>
+    $("#username").mask("03000000000");
+</script>
+
+<?php include_once "../includes/footer.php"; ?>

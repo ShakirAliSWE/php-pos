@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="83360c37-2513-4403-ae46-ed8cbf982a1c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/api/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/sells.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sells/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sells/sells-add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sells/sells-all.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sells/sells-view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/products.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/purchases.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/purchases.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/template-custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/template-custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/template-custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/template-custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/common.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/includes.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/includes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mock/products.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2KzEiRAUn3S6rINODcGX6rs2Eod" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/purchases" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\php-pos\purchases" />
+      <recent name="C:\xampp\htdocs\php-pos\products" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83360c37-2513-4403-ae46-ed8cbf982a1c" name="Default Changelist" comment="" />
+      <created>1674969137970</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674969137970</updated>
+      <workItem from="1674969139214" duration="15362000" />
+      <workItem from="1675052561591" duration="7592000" />
+      <workItem from="1675138257605" duration="3830000" />
+      <workItem from="1675142122200" duration="1000" />
+      <workItem from="1675145495954" duration="1976000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="448" y="264" key="NewPhpFileDialog" timestamp="1675146102767">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="448" y="264" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1675146102767" />
+    <state x="150" y="0" key="SettingsEditor" timestamp="1675147340668">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="150" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1675147340668" />
+    <state x="298" y="151" width="672" height="677" key="run.anything.popup" timestamp="1675138448057">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="298" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1675138448057" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1675147454379">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1675147454379" />
+  </component>
+</project>

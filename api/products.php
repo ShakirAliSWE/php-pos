@@ -4,6 +4,9 @@ global $objDatabase;
 $action = getValue("action");
 
 try{
+    if(!verifyUser()){
+        throw new Exception("Login required",403);
+    }
 
     if($action == "all"){
         $data = [];

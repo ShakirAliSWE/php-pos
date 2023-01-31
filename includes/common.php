@@ -125,6 +125,25 @@ function systemCode($table,$column,$sortBy,$prefix = ""){
 }
 
 function response($code, $message, $dataArray = []){
+    if($code == 0)
+        $code = 403;
     http_response_code($code);
     return json_encode(["status" => $code, "message" => $message, "data" => $dataArray]);
+}
+
+function passwordHash($password){
+    return password_hash($password,PASSWORD_BCRYPT);
+}
+
+function passwordVerify($password,$hash){
+    return password_verify($password,$hash);
+}
+
+function verifyUser(){
+    return isset($_SESSION["_u"])?$_SESSION["_u"]:null;
+}
+
+function redirect($url){
+    header("Location: $url");
+    exit();
 }
