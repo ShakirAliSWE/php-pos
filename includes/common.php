@@ -20,8 +20,8 @@ function menus()
             "path" => "reports",
         ],
         [
-            "title" => "Settings",
-            "path" => "settings",
+            "title" => "Users",
+            "path" => "users",
         ],
     ];
 }

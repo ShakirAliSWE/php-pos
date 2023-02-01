@@ -62,7 +62,7 @@ class formFields
         return '<label for="'.$id.'" class="form-label h6">'.$title.' '.($required?'<span class="text-danger">*</span>':"").'</label>
                 <div class="input-group">
                     <span class="input-group-text" id="'.$id.'_addOn">'.$prefix.'</span>
-                    <input type="text" class="form-control" name = "'.$id.'" id="'.$id.'" value="'.$defaultValue.'" placeholder = "'.$placeHolder.'"  aria-describedby="'.$id.'_addOn" maxlength="10"> 
+                    <input type="text" class="form-control" name = "'.$id.'" id="'.$id.'" value="'.$defaultValue.'" placeholder = "'.$placeHolder.'"  aria-describedby="'.$id.'_addOn" maxlength="11"> 
                 </div>
                 <div class="text-danger" id = "'.$id.'_validation" style = "display:none">Please provide a valid mobile number</div>';
     }
