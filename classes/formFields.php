@@ -168,8 +168,67 @@ class formFields
 
     }
 
-    public function grid(){
+    public function grid($name = "",$primaryColumn = "id",$apiURL = "",$columnArray = [],$operationArray = []){
+        $return = '';
+        $tableHead = '';
+        $tableBody = [];
+        foreach ($columnArray AS $column){
+            if(isset($column["title"])){
+                $tableHead .= '<th>'.$column["title"].'</th>';
+                $tableBody[] = ["data" => $column["id"]];
+            }
+        }
 
+
+        if(count($operationArray)){
+            $tableHead .= '<th>ACTION</th>';
+        }
+
+        $return .= '<div class="table-responsive">
+                        <table id="'.$name.'" class="table" style="width: 100%;white-space: nowrap;">
+                            <thead>
+                            <tr>'.$tableHead.'</tr>
+                            </thead>
+                        </table>
+                    </div>';
+
+        $return .= '<script>
+                    $(() => {
+                        let name        = "'.$name.'";
+                        let primaryCol  = "'.$primaryColumn.'";
+                        let apiURL      = "'.$apiURL.'";
+                        let gridCols    = '.json_encode($tableBody).';
+                        let gridOps     = '.json_encode($operationArray).';
+                        
+                        if(gridOps.length){
+                            gridCols.push({
+                                "data" : `${primaryCol}`, 
+                                "render" : renderCol 
+                            });
+                        }
+                        
+                      
+                        $(`#${name}`).DataTable({
+                            ajax: `../api/${apiURL}`,
+                            columns : gridCols,
+                            order: [[0, "desc"]],
+                            columnDefs: [{target : 0, visible : false}]
+                        });
+                        
+                        function renderCol(data, type){
+                            let returnHTML = ``;
+                            returnHTML += `<div class="d-flex gap-1">`;
+                            $.each(gridOps,(key,ops)=>{
+                                returnHTML += `<a href = "${ops.url}&_id=${data}" class="btn ${ops.class} btn-sm"><i class="${ops.icon}"></i></a>`;
+                            })
+                            returnHTML += `</div>`;
+                            
+                            return returnHTML;
+                        }
+                    });
+                </script>';
+        
+        return $return;
     }
 
 

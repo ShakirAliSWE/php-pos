@@ -78,13 +78,13 @@ global $objDatabase;
             status : status
         };
 
-        requestAjax("../api/products.php",params,(success)=>{
-            let response = JSON.parse(success);
-            toastMessage("SUCCESS",response.message,"success");
-            window.location = `../products/?_action=view&_id=${response.data.id}`;
+        confirmationRequest("Do you want to add this record?",()=>{
+            requestAjax("../api/products.php",params,(success)=>{
+                let response = JSON.parse(success);
+                toastMessage("SUCCESS",response.message,"success");
+                window.location = `../products/?_action=view&_id=${response.data.id}`;
+            });
         });
-
-        console.log("formOnSubmit",params);
 
         return false;
     }

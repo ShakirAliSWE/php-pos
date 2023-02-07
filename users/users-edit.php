@@ -77,11 +77,14 @@ catch (Exception $e) {
             status : status
         };
 
-        requestAjax("../api/users.php",params,(success)=>{
-            let response = JSON.parse(success);
-            toastMessage("SUCCESS",response.message,"success");
-            window.location = `../users/?_action=view&_id=${response.data.id}`;
+        confirmationRequest("Do you want to edit this record?",()=>{
+            requestAjax("../api/users.php",params,(success)=>{
+                let response = JSON.parse(success);
+                toastMessage("SUCCESS",response.message,"success");
+                window.location = `../users/?_action=view&_id=${response.data.id}`;
+            });
         });
+
 
         return false;
     }

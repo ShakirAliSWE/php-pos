@@ -12,39 +12,14 @@ global $objFormFields;
     </div>
 </div>
 <div class="custom-container">
-    <div class="table-responsive">
-        <table id="example" class="table" style="width: 100%;white-space: nowrap;">
-            <thead>
-            <tr>
-                <th>ID</th>
-                <th>USERNAME</th>
-                <th>PASSWORD</th>
-                <th>STATUS</th>
-                <th>ACTION</th>
-            </tr>
-            </thead>
-        </table>
-    </div>
+    <?php
+    $columnArray[] = ["id" => "id", "title" => "ID"];
+    $columnArray[] = ["id" => "username", "title" => "USERNAME"];
+    $columnArray[] = ["id" => "password", "title" => "PASSWORD"];
+    $columnArray[] = ["id" => "status", "title" => "STATUS"];
+
+    $operationArray[] = ["icon" => "fa fa-eye", "class" => "btn-warning","url" => "../users/?_action=view"];
+    $operationArray[] = ["icon" => "fa fa-pencil-alt", "class" => "btn-primary","url" => "../users/?_action=edit"];
+    echo $objFormFields->grid("users-all","id","users.php?action=all",$columnArray,$operationArray);
+    ?>
 </div>
-<script>
-    $(document).ready(function () {
-        $('#example').DataTable({
-            ajax: '../api/users.php?action=all',
-            columns: [
-                {data: 'id'},
-                {data: 'username'},
-                {data: 'password'},
-                {data: 'status'},
-                {
-                    data: 'id',
-                    render: function (data, type) {
-                        return `<div class="d-flex gap-1">
-                                       <a href = "../users/?_action=view&_id=${data}" class="btn btn-warning btn-sm"><i class="fa fa-eye"></i></a>
-                                       <a href = "../users/?_action=edit&_id=${data}" class="btn btn-primary btn-sm"><i class="fa fa-pencil-alt"></i></a>
-                                    </div>`;
-                    },
-                },
-            ]
-        });
-    });
-</script>

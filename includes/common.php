@@ -147,3 +147,55 @@ function redirect($url){
     header("Location: $url");
     exit();
 }
+
+function addInventory($itemId = 0,$qty = 0){
+    global $objDatabase;
+    $timeNow = timeNow();
+    try{
+        if($itemId == 0){
+            throw new Exception("Sorry, No item found",503);
+        }
+
+        $result = $objDatabase->dbQuery("SELECT id FROM inventory WHERE itemId = '$itemId'");
+        if($objDatabase->dbRowsCount($result)){
+            $rowArray = $objDatabase->dbFetch($result);
+            $id = $rowArray["id"];
+            $objDatabase->dbQuery("UPDATE inventory SET qty = qty + $qty, updatedAt = '$timeNow' WHERE id = '$id' ");
+        }
+        else{
+            $objDatabase->dbQuery("INSERT INTO inventory(itemId,qty,addedAt) VALUES ('$itemId','$qty','$timeNow')");
+        }
+    }
+    catch (Exception $e){
+        throw new Exception($e->getMessage(),$e->getCode());
+    }
+}
+
+function subtractInventory($itemId = 0,$qty = 0){
+    global $objDatabase;
+    $timeNow = timeNow();
+    try{
+        if($itemId == 0){
+            throw new Exception("Sorry, No item found",503);
+        }
+
+        $result = $objDatabase->dbQuery("SELECT id,qty FROM inventory WHERE itemId = '$itemId'");
+        if($objDatabase->dbRowsCount($result)){
+            $rowArray = $objDatabase->dbFetch($result);
+            $id        = $rowArray["id"];
+            $systemQty = $rowArray["qty"];
+            if($systemQty < $qty)
+                throw new Exception("Sorry, Inventory not available",503);
+
+            $objDatabase->dbQuery("UPDATE inventory SET qty = qty - $qty, updateAt = '$timeNow' WHERE id = '$id' ");
+        }
+        else{
+            throw new Exception("Sorry, No item found",503);
+        }
+    }
+    catch (Exception $e){
+        throw new Exception($e->getMessage(),$e->getCode());
+    }
+}
+
+

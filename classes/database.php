@@ -45,4 +45,16 @@ class database
         return mysqli_close($this->connection);
     }
 
+    public function setTransaction($mode = false){
+        mysqli_autocommit($this->connection,$mode);
+    }
+
+    public function commit(){
+        return mysqli_commit($this->connection);
+    }
+
+    public function rollBack(){
+        mysqli_rollback($this->connection);
+    }
+
 }

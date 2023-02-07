@@ -39,6 +39,9 @@ if(!verifyUser()){
     <link href="../assets/plugins/jquery-toast/jquery-toast.css" rel="stylesheet">
     <script src="../assets/plugins/jquery-toast/jquery-toast.js"></script>
 
+    <link href="../assets/plugins/sweet-alert/sweet-alert.css" rel="stylesheet">
+    <script src="../assets/plugins/sweet-alert/sweet-alert.js"></script>
+
     <script src="../assets/js/jquery-mask.js"></script>
 
     <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>

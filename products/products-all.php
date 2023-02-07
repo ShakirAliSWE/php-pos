@@ -12,46 +12,17 @@ global $objFormFields;
     </div>
 </div>
 <div class="custom-container">
-    <div class="table-responsive">
-        <table id="example" class="table" style="width: 100%;white-space: nowrap;">
-            <thead>
-            <tr>
-                <th>ID</th>
-                <th>CODE</th>
-                <th>TITLE</th>
-                <th>UNIT</th>
-                <th>BUYING PRICE</th>
-                <th>SELLING PRICE</th>
-                <th>ACTIVE</th>
-                <th>ACTION</th>
-            </tr>
-            </thead>
-        </table>
-    </div>
+    <?php
+        $columnArray[] = ["id" => "id", "title" => "ID"];
+        $columnArray[] = ["id" => "code", "title" => "CODE"];
+        $columnArray[] = ["id" => "title", "title" => "TITLE"];
+        $columnArray[] = ["id" => "unit", "title" => "UNIT"];
+        $columnArray[] = ["id" => "buyingPrice", "title" => "BUYING PRICE"];
+        $columnArray[] = ["id" => "sellingPrice", "title" => "SELLING PRICE"];
+        $columnArray[] = ["id" => "status", "title" => "ACTIVE"];
+
+        $operationArray[] = ["icon" => "fa fa-eye", "class" => "btn-warning","url" => "../products/?_action=view"];
+        $operationArray[] = ["icon" => "fa fa-pencil-alt", "class" => "btn-primary","url" => "../products/?_action=edit"];
+        echo $objFormFields->grid("product-all","id","products.php?action=all",$columnArray,$operationArray);
+    ?>
 </div>
-<script>
-    $(document).ready(function () {
-        $('#example').DataTable({
-            ajax: '../api/products.php?action=all',
-            columns: [
-                {data: 'id'},
-                {data: 'code'},
-                {data: 'title'},
-                {data: 'unit'},
-                {data: 'buyingPrice'},
-                {data: 'sellingPrice'},
-                {data: 'status'},
-                {
-                    data: 'id',
-                    render: function (data, type) {
-                        return `<div class="d-flex gap-1">
-                                       <a href = "../products/?_action=view&_id=${data}" class="btn btn-warning btn-sm"><i class="fa fa-eye"></i></a>
-                                       <a href = "../products/?_action=edit&_id=${data}" class="btn btn-primary btn-sm"><i class="fa fa-pencil-alt"></i></a>
-                                       <!-- <a href = "../products/?_action=delete&_id=${data}" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></a>-->
-                                    </div>`;
-                    },
-                },
-            ]
-        });
-    });
-</script>

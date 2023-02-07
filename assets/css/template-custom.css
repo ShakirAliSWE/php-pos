@@ -37,7 +37,7 @@ body{
     padding: 1rem;
     border-radius: 6px;
     background-color: #FFF;
-    box-shadow: 0 2px 4px rgb(126 142 177 / 12%);
+    box-shadow: 0 0.5rem 1rem rgba(var(--bs-body-color-rgb), .15) !important;
 }
 
 

@@ -44,10 +44,12 @@ echo $objFormFields->breadCrumb([
             id : id,
         };
 
-        requestAjax("../api/products.php",params,(success)=>{
-            let response = JSON.parse(success);
-            toastMessage("SUCCESS",response.message,"success");
-            window.location = `../products/`;
+        confirmationRequest("Do you want to delete this record?",()=>{
+            requestAjax("../api/products.php",params,(success)=>{
+                let response = JSON.parse(success);
+                toastMessage("SUCCESS",response.message,"success");
+                window.location = `../products/`;
+            });
         });
     }
 </script>

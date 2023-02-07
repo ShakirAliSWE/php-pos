@@ -109,10 +109,12 @@ $date = date("Y-m-d");
             items : items,
         };
 
-        requestAjax("../api/purchases.php",params,(success)=>{
-            let response = JSON.parse(success);
-            toastMessage("SUCCESS",response.message,"success");
-            window.location = `../purchases/?_action=view&_id=${response.data.id}`;
+        confirmationRequest("Do you want to add this record?",()=>{
+            requestAjax("../api/purchases.php",params,(success)=>{
+                let response = JSON.parse(success);
+                toastMessage("SUCCESS",response.message,"success");
+                window.location = `../purchases/?_action=view&_id=${response.data.id}`;
+            });
         });
 
         return false;

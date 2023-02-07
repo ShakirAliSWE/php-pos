@@ -44,6 +44,7 @@ try{
             $itemsArray[$item["id"]] += $item["qty"];
         }
 
+        $objDatabase->setTransaction();
         $objDatabase->dbQuery("INSERT INTO sells(code,date,addedAt,addedBy) VALUES ('$code','$date','$addedAt','$addedBy')");
         $sellId  = $objDatabase->dbLastId();
         $totalItems  = 0;
@@ -62,13 +63,15 @@ try{
             $totalItems++;
             $totalAmount += $totalPrice;
             $objDatabase->dbQuery("INSERT INTO sells_items(sellId,itemId,qty,buyingPrice,sellingPrice,totalPrice) VALUES ('$sellId','$itemId','$qty','$buyingPrice','$sellingPrice','$totalPrice')");
+            subtractInventory($itemId,$qty);
         }
 
         $objDatabase->dbQuery("UPDATE sells SET totalItems = '$totalItems', totalAmount = '$totalAmount' WHERE id = '$sellId' ");
-
+        $objDatabase->commit();
         echo response(200,"Record added successfully",["id" => $sellId]);
     }
     else{
+        $objDatabase->rollBack();
         throw new Exception("No action found",403);
     }
 }
