@@ -187,7 +187,7 @@ function subtractInventory($itemId = 0,$qty = 0){
             if($systemQty < $qty)
                 throw new Exception("Sorry, Inventory not available",503);
 
-            $objDatabase->dbQuery("UPDATE inventory SET qty = qty - $qty, updateAt = '$timeNow' WHERE id = '$id' ");
+            $objDatabase->dbQuery("UPDATE inventory SET qty = qty - $qty, updatedAt = '$timeNow' WHERE id = '$id' ");
         }
         else{
             throw new Exception("Sorry, No item found",503);

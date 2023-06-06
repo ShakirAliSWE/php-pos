@@ -20,29 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83360c37-2513-4403-ae46-ed8cbf982a1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/plugins/sweet-alert/sweet-alert.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/plugins/sweet-alert/sweet-alert.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/purchases.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/purchases.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/sells.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/sells.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/template-custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/template-custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/template-custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/template-custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/formFields.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/formFields.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/common.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/products-add.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/products-add.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/products-all.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/products-all.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/products-delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/products-delete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/products-edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/products-edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purchases/purchases-add.php" beforeDir="false" afterPath="$PROJECT_DIR$/purchases/purchases-add.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purchases/purchases-all.php" beforeDir="false" afterPath="$PROJECT_DIR$/purchases/purchases-all.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sells/sells-add.php" beforeDir="false" afterPath="$PROJECT_DIR$/sells/sells-add.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sells/sells-all.php" beforeDir="false" afterPath="$PROJECT_DIR$/sells/sells-all.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/users-add.php" beforeDir="false" afterPath="$PROJECT_DIR$/users/users-add.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/users-all.php" beforeDir="false" afterPath="$PROJECT_DIR$/users/users-all.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/users-edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/users/users-edit.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +81,13 @@
       <workItem from="1675145495954" duration="3782000" />
       <workItem from="1675245314082" duration="3368000" />
       <workItem from="1675690192075" duration="281000" />
-      <workItem from="1675742804145" duration="6036000" />
+      <workItem from="1675742804145" duration="6234000" />
+      <workItem from="1675766998744" duration="29000" />
+      <workItem from="1676870829674" duration="275000" />
+      <workItem from="1679405075992" duration="57000" />
+      <workItem from="1679405604144" duration="303000" />
+      <workItem from="1681123321929" duration="132000" />
+      <workItem from="1686024750981" duration="449000" />
     </task>
     <servers />
   </component>
@@ -122,21 +107,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="448" y="264" key="NewPhpFileDialog" timestamp="1675248265814">
+    <state x="352" y="75" width="575" height="530" key="find.popup" timestamp="1686024775481">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="448" y="264" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1675248265814" />
-    <state x="150" y="0" key="SettingsEditor" timestamp="1675147340668">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="150" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1675147340668" />
-    <state x="298" y="151" width="672" height="677" key="run.anything.popup" timestamp="1675138448057">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="298" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1675138448057" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1675748948080">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1675748948080" />
+    <state x="352" y="75" width="575" height="530" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1686024775481" />
   </component>
 </project>
